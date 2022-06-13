@@ -7,6 +7,7 @@ const insertCar = () => {
     let carStrategy = new CarStrategy(new CarView());
     let result = carStrategy.insertCar(car);
     console.log(result);
+    console.log("Tudo bem!");
 }
 
 insertCar();
